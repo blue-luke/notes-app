@@ -1,0 +1,2 @@
+n1 = new Note('On weekend', 'Buy cheese')
+n2 = new Note('Tomorrow', 'Go to Brighton')
