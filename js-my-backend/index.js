@@ -22,6 +22,8 @@ app.post('/notes', function(req, res) {
   let content = req.body.content
   note = new Note(title, content)
   res.send(JSON.stringify(note))
+  // how do I activate this from the front end?
+  // then in the front end, also add a new DOM element?
 });
 
 app.listen(port, function() {
